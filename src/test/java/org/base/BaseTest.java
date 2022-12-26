@@ -20,7 +20,7 @@ public class BaseTest {
     public void setUp() throws MalformedURLException {
 
         if (localAndroid) {
-            System.out.println("Qatar Airways için Android Testi Başlıyor");
+            System.out.println("ANDROID TEST STARTS FOR QATAR AIRWAYS");
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
             desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
